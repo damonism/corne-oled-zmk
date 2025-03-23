@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  default:
+  Mac:
   - TAB
   - Q
   - W
@@ -38,12 +38,12 @@ layers:
   - /
   - ESC
   - LGUI
-  - lower
+  - Lower
   - SPACE
   - RET
-  - raise
+  - Raise
   - RALT
-  win:
+  Win:
   - TAB
   - Q
   - W
@@ -81,12 +81,12 @@ layers:
   - /
   - ESC
   - LCTRL
-  - lower
+  - Lower
   - SPACE
   - RET
-  - raise
+  - Raise
   - RALT
-  lower:
+  Lower:
   - TAB
   - '1'
   - '2'
@@ -129,7 +129,7 @@ layers:
   - RET
   - {t: ▽, type: trans}
   - RALT
-  raise:
+  Raise:
   - TAB
   - '!'
   - '@'
@@ -172,7 +172,7 @@ layers:
   - RET
   - {type: held}
   - RALT
-  adjust:
+  Adjust:
   - OUT TOG
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -186,7 +186,7 @@ layers:
   - PP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: default, h: toggle}
+  - {t: Mac, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -198,7 +198,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: win, h: toggle}
+  - {t: Win, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
