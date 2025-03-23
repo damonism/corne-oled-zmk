@@ -1,7 +1,91 @@
-layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corne}
 layers:
-  default: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LCTRL, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, ESC, LGUI, lower, SPACE, RET,
-    raise, RALT]
+  default:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - {t: LSHFT, h: sticky, s: '&caps_word'}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ESC
+  - LGUI
+  - lower
+  - SPACE
+  - RET
+  - raise
+  - RALT
+  win:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - LGUI
+  - A
+  - S
+  - D
+  - F
+  - G
+  - '&td_dsh'
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - {t: LSHFT, h: sticky, s: '&caps_word'}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ESC
+  - LCTRL
+  - lower
+  - SPACE
+  - RET
+  - raise
+  - RALT
   lower:
   - TAB
   - '1'
@@ -14,31 +98,31 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BSPC
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - DEL
+  - LCTRL
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - LEFT
   - DOWN
   - UP
   - RIGHT
+  - F11
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&studio_unlock'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LSHFT
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - END
+  - PG UP
+  - PG DN
+  - END
+  - F12
+  - {t: ESC, s: '`'}
   - LGUI
   - {type: held}
   - SPACE
@@ -54,12 +138,12 @@ layers:
   - '%'
   - ^
   - '&'
-  - '*'
+  - KP MULTIPLY
   - (
   - )
   - BSPC
   - LCTRL
-  - {t: ▽, type: trans}
+  - '&en_dash'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -71,7 +155,7 @@ layers:
   - \
   - '`'
   - LSHFT
-  - {t: ▽, type: trans}
+  - '&em_dash'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -84,6 +168,49 @@ layers:
   - '~'
   - LGUI
   - {t: ▽, type: trans}
+  - SPACE
+  - RET
+  - {type: held}
+  - RALT
+  adjust:
+  - OUT TOG
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - MUTE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOL UP
+  - BRI UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: win, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOL DN
+  - BRI DN
+  - PREV
+  - NEXT
+  - {t: ▽, type: trans}
+  - BT CLR
+  - LGUI
+  - {type: held}
   - SPACE
   - RET
   - {type: held}
