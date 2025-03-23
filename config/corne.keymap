@@ -75,6 +75,7 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
+                    display-name = "Mac";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
 // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -89,6 +90,7 @@
                 };
 
                 win_layer {
+                    display-name = "Win";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  E   |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
 // | GUI  |  A  |  S  |  D   |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -103,6 +105,7 @@
                 };
                 
                 lower_layer {
+                    display-name = "Lower";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6   |  7   |  8   |  9   |  0  | DEL  |
 // | CTRL | F1  | F2  | F3  | F3  | F5  |   | LEFT | DOWN |  UP  | RIGT | F11 |      |
@@ -117,6 +120,7 @@
                 };
 
                 raise_layer {
+                    display-name = "Raise";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
 // | CTRL |  EN |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -131,12 +135,13 @@
                 };
                 
                 adjust_layer {
-                        bindings = <
+                    display-name = "Adjust";
 // -----------------------------------------------------------------------------------------
 // |      | BT1 | BT2 | BT3 | BT4 | BT5 |   | MUTE|     |     |     |PLAY |     |
 // |      | MAC |     |     |     |     |   | VLUP|BRIUP|     |     |     |     |
 // |      | WIN |     |     |     |     |   | VLDN|BRIDN|PREV |NEXT |     |     | BTCLR
 //                    | GUI |     | SPC |   | ENT |     | ALT |
+                        bindings = <
    &out OUT_TOG &bt BT0 &bt BT1 &bt BT2  &bt BT3 &bt BT4     &kp K_MUTE   &trans       &trans     &trans     &kp C_PP &trans 
    &trans       &to 0   &trans  &trans   &trans  &trans      &kp C_VOL_UP &kp C_BRI_UP &trans     &trans     &trans   &trans
    &trans       &to 1   &trans  &trans   &trans  &trans      &kp C_VOL_DN &kp C_BRI_DN &kp C_PREV &kp C_NEXT &trans   &bt BT_CLR
