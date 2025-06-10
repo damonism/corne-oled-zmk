@@ -160,7 +160,7 @@
 // |      | WIN | WIN |     |     |     |   | VLDN|BRIDN|PREV |NEXT |     | BTCLR| 
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &out OUT_TOG &bt BT0 &bt BT1 &bt BT2  &bt BT3 &bt BT4     &kp K_MUTE   &trans       &trans     &trans     &kp C_PP &trans 
+   &out OUT_TOG &bt BT0 &bt BT1 &bt BT2  &bt BT3 &bt BT4     &kp C_MUTE   &trans       &trans     &trans     &kp C_PP &trans 
    &trans       &to 0   &mac_bt &trans   &trans  &trans      &kp C_VOL_UP &kp C_BRI_UP &trans     &trans     &trans   &trans
    &trans       &to 1   &win_bt &trans   &trans  &trans      &kp C_VOL_DN &kp C_BRI_DN &kp C_PREV &kp C_NEXT &trans   &bt BT_CLR
                                 &kp LGUI &trans  &kp SPACE   &kp RET      &trans       &kp RALT
