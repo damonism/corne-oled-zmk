@@ -137,9 +137,9 @@
                 adjust_layer {
                     display-name = "Adjust";
 // -----------------------------------------------------------------------------------------
-// |      | BT1 | BT2 | BT3 | BT4 | BT5 |   | MUTE|     |     |     |PLAY |     |
-// |      | MAC |     |     |     |     |   | VLUP|BRIUP|     |     |     |     |
-// |      | WIN |     |     |     |     |   | VLDN|BRIDN|PREV |NEXT |     |     | BTCLR
+// |      | BT0 | BT1 | BT2 | BT3 | BT4 |   | MUTE|     |     |     |PLAY |      |
+// |      | MAC |     |     |     |     |   | VLUP|BRIUP|     |     |     |      |
+// |      | WIN |     |     |     |     |   | VLDN|BRIDN|PREV |NEXT |     | BTCLR| 
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &out OUT_TOG &bt BT0 &bt BT1 &bt BT2  &bt BT3 &bt BT4     &kp K_MUTE   &trans       &trans     &trans     &kp C_PP &trans 
