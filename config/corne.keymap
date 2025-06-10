@@ -53,9 +53,8 @@
         )
 
         mac_bt: mac_bt {
-          label = "mac_bt";
           compatible = "zmk,behavior-macro";
-          #biding-cells = <0>;
+          #binding-cells = <0>;
           bindings 
             = <&macro_tap &bt BT_SEL 0>
             , <&macro_tap &tog 0>
@@ -63,9 +62,8 @@
         };
 
         win_bt: win_bt {
-          label = "win_bt";
           compatible = "zmk,behavior-macro";
-          #biding-cells = <0>;
+          #binding-cells = <0>;
           bindings 
             = <&macro_tap &bt BT_SEL 1>
             , <&macro_tap &tog 1>
