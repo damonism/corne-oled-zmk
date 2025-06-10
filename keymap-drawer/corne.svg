@@ -897,9 +897,9 @@ path.combo {
 <text x="0" y="0" class="key tap layer-activator">Mac</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g transform="translate(140, 91)" class="key trans keypos-14">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(140, 91)" class="key keypos-14">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">&amp;mac_bt</text>
 </g>
 <g transform="translate(196, 84)" class="key trans keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -951,9 +951,9 @@ path.combo {
 <text x="0" y="0" class="key tap layer-activator">Win</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g transform="translate(140, 147)" class="key trans keypos-26">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(140, 147)" class="key keypos-26">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">&amp;win_bt</text>
 </g>
 <g transform="translate(196, 140)" class="key trans keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

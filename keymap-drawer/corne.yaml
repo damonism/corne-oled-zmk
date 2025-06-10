@@ -187,7 +187,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Mac, h: toggle}
-  - {t: ▽, type: trans}
+  - '&mac_bt'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -199,7 +199,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Win, h: toggle}
-  - {t: ▽, type: trans}
+  - '&win_bt'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
